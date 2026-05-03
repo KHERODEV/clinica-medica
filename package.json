@@ -1,0 +1,20 @@
+{
+  "name": "millaray",
+  "version": "1.0.0",
+  "description": "Sistema web completo para administrar pacientes, citas médicas, historial clínico y recetas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --watch",
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/app.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.13",
+    "tailwindcss": "^3.4.19"
+  }
+}
