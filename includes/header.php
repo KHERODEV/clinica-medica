@@ -22,6 +22,7 @@ $pagina_actual = basename($_SERVER['PHP_SELF']);
     <title>Clínica Médica — Sistema de Gestión</title>
     <link rel="stylesheet" href="../assets/css/app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body class="font-sans bg-gray-50">
