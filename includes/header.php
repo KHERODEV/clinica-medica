@@ -1,11 +1,6 @@
 <?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-if (!isset($_SESSION['usuario_id'])) {
-    header('Location: ../index.php');
-    exit;
-}
+require_once __DIR__ . '/auth.php';
+verificarSesion();
 $usuario_nombre = $_SESSION['usuario_nombre'] ?? 'Usuario';
 $usuario_rol = $_SESSION['usuario_rol'] ?? '';
 $usuario_email = $_SESSION['usuario_email'] ?? '';
